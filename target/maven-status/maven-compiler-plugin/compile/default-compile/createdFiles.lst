@@ -1,0 +1,6 @@
+com\quizapp\QuizApplication.class
+com\quizapp\model\Question.class
+com\quizapp\repository\QuestionRepository.class
+com\quizapp\service\QuestionService.class
+com\quizapp\QuizController.class
+com\quizapp\repository\DBConnection.class
