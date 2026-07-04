@@ -55,11 +55,11 @@ public class QuestionRepository {
             while (rs.next()) {
                 questions.add(new Question(
                         rs.getInt("id"),
-                        rs.getString("question_text"),
-                        rs.getString("option_a"),
-                        rs.getString("option_b"),
-                        rs.getString("option_c"),
-                        rs.getString("option_d"),
+                        rs.getString("question"),
+                        rs.getString("option1"),
+                        rs.getString("option2"),
+                        rs.getString("option3"),
+                        rs.getString("option4"),
                         rs.getString("correct_answer")
                 ));
             }
